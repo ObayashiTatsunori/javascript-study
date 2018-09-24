@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     list.addEventListener('click', function(e) {
         //data-isbn属性からアンカータグに紐づいたisbn値を取得
         var isbn = e.target.getAttribute('data-isbn');
-        console.log(isbn);
+
         if (isbn) {
             //<img>要素を生成
             var img = document.createElement('img');
